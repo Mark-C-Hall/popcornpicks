@@ -1,0 +1,65 @@
+# Ignore database schema files
+.db/
+db_data/
+
+# Ignore environment variables
+.env
+
+# Ignore Go build files
+/bin/
+/pkg/
+/cmd/
+/vendor/
+
+/# Ignore Go test binary output
+*.test
+
+# Ignore Go coverage files
+*.out
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and directories
+tmp/
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled object files
+*.o
+*.a
+
+# Ignore cgo output files
+_cgo_*
+
+# Ignore module files
+go.sum
+go.mod
+
+# Ignore lock files
+Gopkg.lock
+glide.lock
+
+# Ignore executables
+*.exe
+
+# Ignore coverage reports
+coverage/
+
+# Ignore Docker artifacts
+docker-compose.override.yml
+
